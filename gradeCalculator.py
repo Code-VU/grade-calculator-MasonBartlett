@@ -11,6 +11,8 @@ def calculateGrade():
     
     if score >= 1 :
         print('Bad score')
+    elif score < 0 :
+        print('Bad score')
     elif score >= .9 :
         print('A')
     elif score >= .8 :
