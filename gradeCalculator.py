@@ -9,9 +9,7 @@ def calculateGrade():
     except :
         score = 2
     
-    if score >= 1 :
-        print('Bad score')
-    elif score < 0 :
+    if score > 1 or score < 0 :
         print('Bad score')
     elif score >= .9 :
         print('A')
